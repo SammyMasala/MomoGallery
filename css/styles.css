@@ -1,0 +1,147 @@
+/*--------------------
+# Global Variables
+--------------------*/ 
+/* Global Fonts */
+:root{
+    --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Montserrat", sans-serif;
+    --nav-font: "Lato", sans-serif;
+}
+
+/* Global Colours */
+:root {
+    --background-color: hsl(0, 0%, 87%);
+    --background-color-rgb: 255, 255, 255;
+    --default-color: #515151;
+    --default-color-rgb: 33, 37, 41;
+    --primary-color: #e84545;
+    --primary-color-rgb: 232, 69, 69;
+    --secondary-color: #323232;
+    --secondary-color-rgb: 50, 53, 58;
+    --contrast-color: #ffffff;
+    --contrast-color-rgb: 255, 255, 255;
+  }
+  
+/* Nav Menu Colors */
+:root {
+    --nav-color: #3a3939;
+    --nav-hover-color: #e84545;
+    --nav-dropdown-color: #3a3939;
+    --nav-dropdown-hover-color: #e84545;
+    --nav-dropdown-background-color: #ffffff;
+    --nav-mobile-background-color: #ffffff;
+}
+
+/* Scroll Behaviour */
+:root{
+    scroll-behavior: smooth;
+}
+
+/*----------------------
+# General Configuration
+------------------------*/
+/* Body */
+body{
+    background-color:var(--background-color);
+    font-family:var(--default-font);
+    font-size:24px;
+}
+/*--------------------
+# Main Page
+--------------------*/
+/* Header */
+.header{
+    background-color: var(--default-color);
+    height: 50px;
+}
+
+/* Hero/Title */
+.hero{
+    width:200px;
+    height: 70px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.title-text{
+    font-family:var(--heading-font);
+    font-size:32px;
+    padding:10px;
+    border-style: outset;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: .5px;
+    z-index: 1;
+}
+
+/* Showcase */
+.showcase{
+    position: relative;
+}
+
+.img-showcase{
+    max-width: 800px;
+    height: 620px;
+    padding: 25px 10px 25px 10px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img-showcase img{
+    background-color: var(--contrast-color);
+    padding: 2px;
+    width:auto;
+    height:100%;
+    object-fit: contain;
+}
+
+/* Gallery */
+.gallery{
+    fill-opacity: 0;
+    max-width: 600px;
+    height: 230px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    position: relative;
+}   
+
+.img-gallery{
+    height:200px;
+}
+
+.img-gallery-primary{
+    height:300px;
+}
+
+.img-gallery img{
+    background-color: var(--contrast-color);
+    width: auto;
+    max-height: 200px;
+    margin: auto;
+    padding: 2px;
+    object-fit: contain;
+}
+
+.img-gallery-primary img{
+    background-color: var(--contrast-color);
+    width: auto;
+    max-height: 300px;
+    margin: auto;
+    padding: 2px;
+    object-fit: contain;
+}
+
+/* Footer */
+.footer{
+    background-color: var(--default-color);
+    height: 50px;
+}
+
+
+

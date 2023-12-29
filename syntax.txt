@@ -1,0 +1,17 @@
+<!-- Section Lorem Ipsum -->
+<section id="lorem-ipsum" class="lorem-ipsum">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+        </div>
+    </div>
+</section> <!-- End Section -->
+
+Cheat Sheet:
+p-? = padding
+m-? = margin
+justify-content-? = content justify
+align-item-? = align
+d-grid/d-flex/d-inline-? etc = display:grid/display:flex REQUIRED PREFIX FOR ALL ELEMENTS to support additional layout customization 
+?-fluid = responsive width to viewpoint
